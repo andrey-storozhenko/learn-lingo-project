@@ -1,0 +1,28 @@
+.heroInfo{
+    flex: 1;
+    padding: 98px 64px;
+    border-radius: 30px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+}
+.heroText{
+    margin-top: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.02em;
+}
+.heroButton{
+    margin-top: auto;
+    padding: 16px 88px;
+    background-color: #f4c550;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.languageMarker{
+    background-color: #FBE9BA;
+    font-style: italic;
+    font-weight: 400;
+}

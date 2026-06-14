@@ -1,0 +1,22 @@
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList{
+    display: flex;
+    column-gap: 24px;
+}
+.navList li{
+   padding: 14px 0;
+}
+.navText{
+    line-height: 1.25;
+}
+
+.login{
+    display: flex;
+    column-gap: 16px;
+}

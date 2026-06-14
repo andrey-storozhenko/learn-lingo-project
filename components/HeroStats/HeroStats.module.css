@@ -1,0 +1,27 @@
+.stats{
+    padding: 40px 0;
+    border: 1.50px dashed #f4c550;
+    border-radius: 30px;
+    margin-top:24px;
+}
+.statsList{
+    display: flex;
+    justify-content: space-around;
+}
+
+.statsList li{
+    display: flex;
+    column-gap: 16px;
+}
+.statsText{
+    font-size: 14px;
+    line-height: 1.28571;
+    color:#121417B3;
+}
+
+.statsAmount{
+    font-weight: 500;
+        font-size: 28px;
+        line-height: 1.14286;
+        letter-spacing: -0.02em;
+}
