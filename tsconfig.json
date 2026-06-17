@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "components/Header/Header.module.css"  ],
+, "components/Header/Header.module.css", "lib/firebase.js", "app/api/teachers/route.js"  ],
   "exclude": ["node_modules"]
 }
