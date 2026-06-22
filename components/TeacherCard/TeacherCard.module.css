@@ -1,0 +1,57 @@
+.teacherContainer{
+    display: flex;
+    padding: 24px;
+    background-color: azure;
+    width: 100%;
+}
+.teacherInfoList{
+    display: flex;
+    column-gap: 32px;
+    margin-right: 64px;
+}
+.teacherInfoContainer{
+    display: flex;
+    justify-content: end;
+}
+.teacherInfo{
+    margin-left: 48px;
+    width: 100%;
+}
+.levelList{
+    display: flex;
+    margin-top: 32px;
+    column-gap: 8px;
+}
+.teacherName{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 8px;
+}
+.teacherLanguages{
+    font-weight: 500;
+    margin-top: 32px;
+}
+.greyMark{
+    color:#8A8A89;
+}
+.lessonInfo, .conditions, .experience{
+    font-weight: 500;
+    margin-top: 8px;
+}
+.readMoreButton{
+    margin-top: 16px;
+    text-decoration: underline;
+}
+.levelText{
+    padding: 8px 12px;
+    background-color: #F4C550;
+    border-radius: 35px;
+}
+.avatarImg{
+    border-radius: 100px;
+    border: 2px solid #FBE9BA;
+    padding: 12px;
+}
+.avatar{
+    flex-shrink: 0;
+}

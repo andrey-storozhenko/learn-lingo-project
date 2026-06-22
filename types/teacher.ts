@@ -6,15 +6,15 @@ interface Review {
 
 
 export interface Teacher{
-    avatarUrl: string,
+    avatar_url: string,
     conditions: string[],
     experience: string,
     languages: string[],
-    lessonInfo: string,
-    lessonDone: number,
+    lesson_info: string,
+    lessons_done: number,
     levels: string[],
     name: string,
-    price: number,
+    price_per_hour: number,
     rating: number,
     reviews: Review[],
     surname:string,

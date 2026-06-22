@@ -9,7 +9,7 @@ interface TeacherListProps{
 
 export default function TeacherList({teachers}:TeacherListProps) {
   return (
-    <div>
+    <div className={css.teachersList}>
           {teachers.map((teacher, index) => (
               <TeacherCard key={index} teacher={teacher}/>
           ))}

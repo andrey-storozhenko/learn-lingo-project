@@ -6,7 +6,7 @@ import { getTeachers } from "@/services/teachers";
 import { useEffect, useState } from "react";
 import { Teacher } from "@/types/teacher";
 
-const LIMIT = 10;
+const LIMIT = 1;
 
 export default function Teachers() {
   const [teachers, setTeachers] = useState<Teacher[]>([]);
@@ -38,10 +38,10 @@ export default function Teachers() {
 
   if (loading) return <p>Loading...</p>;
   return (
-    <div className={['container', css.header].join(' ')}>
+    <div className={['container', css.teachersPage].join(' ')}>
       <TeacherList teachers={visibleTeachers} />
       {hasMore && (
-        <button onClick={loadMore}>
+        <button className={css.loadMoreButton} onClick={loadMore}>
           Load more
         </button>
       )}

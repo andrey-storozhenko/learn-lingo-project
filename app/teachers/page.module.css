@@ -1,0 +1,11 @@
+.loadMoreButton{
+    padding: 16px 48px;
+    background-color: #F4C550;
+    border-radius: 12px;
+    align-self: center;
+    margin-top: 64px;
+}
+.teachersPage{
+    display: flex;
+    flex-direction: column;
+}
